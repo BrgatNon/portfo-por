@@ -16,7 +16,7 @@ const Hero = () => {
         <div className="text-center py-20">
           <div className="mb-8">
             <h1 className="text-5xl md:text-7xl font-bold text-blue-800 mb-6 animate-fade-in">
-              Your Name
+              Sal Kent Remoroza
             </h1>
             <h2 className="text-2xl md:text-3xl text-gray-600 mb-8 animate-fade-in" style={{ animationDelay: '0.2s' }}>
               Student & Aspiring Developer
