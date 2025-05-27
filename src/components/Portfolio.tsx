@@ -8,7 +8,7 @@ const Portfolio = () => {
     {
       title: "Ranggayan",
       description: "A Mobile-Based and Web-Based Barangay Governance and Communication System",
-      tech: ["TypeScript", "JavaScript", "React", "HTML", "CSS", "Vite", "SQL", "Java", ""],
+      tech: ["TypeScript", "JavaScript", "React", "HTML", "CSS", "SQL", "Java"],
       github: "https://github.com/yourusername/ecommerce",
       demo: "https://ranggayan.netlify.app/",
       image: "https://i.ibb.co/HpCxtsNc/Add-a-heading.png"
