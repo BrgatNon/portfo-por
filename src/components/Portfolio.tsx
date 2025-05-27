@@ -8,7 +8,7 @@ const Portfolio = () => {
     {
       title: "Ranggayan",
       description: "A Mobile-Based and Web-Based Barangay Governance and Communication System",
-      tech: ["React", "Node.js", "MongoDB", "Stripe"],
+      tech: ["TypeScript", "JavaScript", "React", "HTML", "CSS", "Vite", "SQL", "Java", ""],
       github: "https://github.com/yourusername/ecommerce",
       demo: "https://ranggayan.netlify.app/",
       image: "https://i.ibb.co/HpCxtsNc/Add-a-heading.png"
@@ -16,7 +16,7 @@ const Portfolio = () => {
     {
       title: "De-cafe-mate",
       description: "A web-based ordering and point-of-sale (POS) system specifically developed,for TommyCo",
-      tech: ["React", "TypeScript", "Firebase", "Material-UI"],
+      tech: ["React", "TypeScript", "SQL", "CSS"],
       github: "https://github.com/yourusername/task-manager",
       demo: "https://tommyco.netlify.app/",
       image: "https://i.ibb.co/Q3NqLVnZ/deca.png"
