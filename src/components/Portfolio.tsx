@@ -11,7 +11,7 @@ const Portfolio = () => {
       tech: ["React", "Node.js", "MongoDB", "Stripe"],
       github: "https://github.com/yourusername/ecommerce",
       demo: "https://ranggayan.netlify.app/",
-      image: "https://i.ibb.co/HpCxtsNc/Add-a-heading.png=crop"
+      image: "https://i.ibb.co/HpCxtsNc/Add-a-heading.png"
     },
     {
       title: "De-cafe-mate",
