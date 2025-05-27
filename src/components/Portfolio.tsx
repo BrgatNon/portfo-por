@@ -6,19 +6,19 @@ import { Button } from '@/components/ui/button';
 const Portfolio = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce application with user authentication, product management, and payment integration.",
+      title: "Ranggayan",
+      description: "A Mobile-Based and Web-Based Barangay Governance and Communication System",
       tech: ["React", "Node.js", "MongoDB", "Stripe"],
       github: "https://github.com/yourusername/ecommerce",
-      demo: "https://your-ecommerce-demo.com",
-      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&h=300&fit=crop"
+      demo: "https://ranggayan.netlify.app/",
+      image: "https://i.ibb.co/HpCxtsNc/Add-a-heading.png=crop"
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management tool with real-time updates, drag-and-drop functionality, and team features.",
+      title: "De-cafe-mate",
+      description: "A web-based ordering and POS system made for TommyCo",
       tech: ["React", "TypeScript", "Firebase", "Material-UI"],
       github: "https://github.com/yourusername/task-manager",
-      demo: "https://your-task-manager.com",
+      demo: "https://tommyco.netlify.app/",
       image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&h=300&fit=crop"
     }
   ];
