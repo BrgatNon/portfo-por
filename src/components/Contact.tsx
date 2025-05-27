@@ -169,6 +169,22 @@ const Contact = () => {
                 ))}
               </div>
             </div>
+
+            <Card className="border-blue-100 bg-gradient-to-r from-blue-700 to-blue-800 text-white">
+              <CardContent className="p-8 text-center">
+                <h4 className="text-xl font-semibold mb-4">Let's Build Something Amazing</h4>
+                <p className="mb-6 opacity-90">
+                  I'm currently looking for internship opportunities and interesting projects to work on.
+                </p>
+                <Button 
+                  variant="outline"
+                  className="border-yellow-400 text-yellow-400 hover:bg-yellow-400 hover:text-blue-800"
+                  onClick={() => window.open('mailto:your.email@example.com', '_blank')}
+                >
+                  Start a Conversation
+                </Button>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </div>
