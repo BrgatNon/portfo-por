@@ -15,11 +15,11 @@ const Portfolio = () => {
     },
     {
       title: "De-cafe-mate",
-      description: "A web-based ordering and POS system made for TommyCo",
+      description: "A web-based ordering and point-of-sale (POS) system specifically developed,for TommyCo",
       tech: ["React", "TypeScript", "Firebase", "Material-UI"],
       github: "https://github.com/yourusername/task-manager",
       demo: "https://tommyco.netlify.app/",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&h=300&fit=crop"
+      image: "https://i.ibb.co/Q3NqLVnZ/deca.png"
     }
   ];
 
