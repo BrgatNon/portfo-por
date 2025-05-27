@@ -29,7 +29,7 @@ const Resume = () => {
     {
       degree: "Bachelor of Science in Information Technology",
       institution: "STI College",
-      period: "2022-Present",
+      period: "2022-2026",
       details: "Relevant Coursework: Data Structures, Programming Languages, Web Systems and Technologies, Great Books hahahahahaha"
     }
   ];
