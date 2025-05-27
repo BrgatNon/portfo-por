@@ -11,12 +11,12 @@ const About = () => {
   ];
 
   const interests = [
-    "Open Source Contributing",
-    "Tech Meetups & Hackathons",
-    "Photography",
+    "Re-coding existing code",
+    "Experementing with AI tools",
+    "Listneing to music",
     "Gaming",
-    "Reading Tech Blogs",
-    "Problem Solving"
+    "Reading other people's project",
+    "Copying others skills"
   ];
 
   return (
@@ -32,8 +32,8 @@ const About = () => {
             <h3 className="text-2xl font-semibold text-blue-700 mb-6">Who I Am</h3>
             <div className="space-y-4 text-gray-600 leading-relaxed">
               <p>
-                I'm a computer science student with a passion for creating meaningful software solutions. 
-                Currently pursuing my degree while building real-world projects that solve actual problems.
+               I'm a Bachelor of Science in Information Technology (BSIT) student with a strong passion for developing practical and impactful IT solutions. 
+               I'm currently pursuing my degree while working on real-world projects that address real-life challenges.
               </p>
               <p>
                 I believe in writing clean, efficient code and am always eager to learn new technologies. 
@@ -41,8 +41,7 @@ const About = () => {
                 building applications that make people's lives easier.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new technologies, contributing to open source 
-                projects, or participating in hackathons to challenge myself and learn from others.
+                When I'm not coding, you'll find me playing games and doing something goofy.
               </p>
             </div>
 
