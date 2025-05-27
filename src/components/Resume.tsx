@@ -29,7 +29,7 @@ const Resume = () => {
     {
       degree: "Bachelor of Science in Information Technology",
       institution: "STI College",
-      period: "2022 - Present",
+      period: "2022-Present",
       details: "Relevant Coursework: Data Structures, Programming Languages, Web Systems and Technologies, Great Books hahahahahaha"
     }
   ];
@@ -42,13 +42,7 @@ const Resume = () => {
           <div className="w-24 h-1 bg-yellow-400 mx-auto rounded-full mb-6"></div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
             My educational background and professional experience in software development.
-          </p>
-          <Button 
-            onClick={downloadResume}
-            className="bg-yellow-500 hover:bg-yellow-600 text-white px-8 py-3 text-lg font-semibold rounded-lg transition-all duration-300 hover:shadow-lg"
-          >
-            Download PDF Resume
-          </Button>
+          </p>         
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
