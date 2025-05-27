@@ -18,12 +18,6 @@ const Resume = () => {
       description: "Developed responsive web applications using React and TypeScript, collaborated with design team to implement user interfaces."
     },
     {
-      title: "Teaching Assistant",
-      company: "University Computer Science Dept.",
-      period: "2023 - Present",
-      description: "Assist students with programming assignments, conduct lab sessions, and help with debugging and code review."
-    },
-    {
       title: "Freelance Web Developer",
       company: "Self-Employed",
       period: "2023 - Present",

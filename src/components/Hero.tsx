@@ -27,19 +27,12 @@ const Hero = () => {
             </p>
           </div>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in" style={{ animationDelay: '0.6s' }}>
+          <div className="flex justify-center animate-fade-in" style={{ animationDelay: '0.6s' }}>
             <Button 
               onClick={scrollToPortfolio}
               className="bg-blue-700 hover:bg-blue-800 text-white px-8 py-3 text-lg font-semibold rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-blue-200"
             >
               View My Work
-            </Button>
-            <Button 
-              variant="outline"
-              onClick={() => document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' })}
-              className="border-yellow-400 text-yellow-600 hover:bg-yellow-50 px-8 py-3 text-lg font-semibold rounded-lg transition-all duration-300"
-            >
-              Get In Touch
             </Button>
           </div>
         </div>

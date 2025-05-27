@@ -20,38 +20,6 @@ const Portfolio = () => {
       github: "https://github.com/yourusername/task-manager",
       demo: "https://your-task-manager.com",
       image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&h=300&fit=crop"
-    },
-    {
-      title: "Weather Dashboard",
-      description: "A responsive weather application with location-based forecasts, interactive maps, and weather alerts.",
-      tech: ["JavaScript", "CSS3", "Weather API", "Chart.js"],
-      github: "https://github.com/yourusername/weather-app",
-      demo: "https://your-weather-app.com",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=500&h=300&fit=crop"
-    },
-    {
-      title: "Portfolio Website",
-      description: "A modern, responsive portfolio website built with React and Tailwind CSS, featuring smooth animations.",
-      tech: ["React", "Tailwind CSS", "TypeScript", "Framer Motion"],
-      github: "https://github.com/yourusername/portfolio",
-      demo: "https://your-portfolio.com",
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=500&h=300&fit=crop"
-    },
-    {
-      title: "Learning Management System",
-      description: "An educational platform with course management, progress tracking, and interactive learning modules.",
-      tech: ["React", "Python", "Django", "PostgreSQL"],
-      github: "https://github.com/yourusername/lms",
-      demo: "https://your-lms-demo.com",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=500&h=300&fit=crop"
-    },
-    {
-      title: "Social Media Dashboard",
-      description: "A comprehensive dashboard for managing multiple social media accounts with analytics and scheduling.",
-      tech: ["Vue.js", "Express.js", "MySQL", "Socket.io"],
-      github: "https://github.com/yourusername/social-dashboard",
-      demo: "https://your-social-dashboard.com",
-      image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=500&h=300&fit=crop"
     }
   ];
 
@@ -67,7 +35,7 @@ const Portfolio = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <Card key={index} className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border-blue-100 overflow-hidden">
               <div className="relative overflow-hidden">
