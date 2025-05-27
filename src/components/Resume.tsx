@@ -29,7 +29,7 @@ const Resume = () => {
     {
       degree: "Bachelor of Science in Information Technology",
       institution: "STI College",
-      period: "2022-2026",
+      period: "2022 - 2026",
       details: "Relevant Coursework: Data Structures, Programming Languages, Web Systems and Technologies, Great Books hahahahahaha"
     }
   ];
@@ -74,7 +74,7 @@ const Resume = () => {
                   <CardContent className="p-6">
                     <div className="flex items-start justify-between mb-2">
                       <h4 className="text-lg font-semibold text-blue-700">{edu.degree}</h4>
-                      <span className="text-sm text-yellow-600 font-medium bg-yellow-100 px-3 py-1 rounded-full">
+                      < className="text-sm text-yellow-600 font-medium bg-yellow-100 px-10 py-1 rounded-full">
                         {edu.period}
                       </span>
                     </div>
