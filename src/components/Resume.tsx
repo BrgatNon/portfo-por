@@ -12,25 +12,25 @@ const Resume = () => {
 
   const experience = [
     {
-      title: "Frontend Development Intern",
-      company: "Tech Startup Inc.",
-      period: "Summer 2024",
+      title: "Frontend Development",
+      company: "Self-Employe.",
+      period: "2025",
       description: "Developed responsive web applications using React and TypeScript, collaborated with design team to implement user interfaces."
     },
     {
       title: "Freelance Web Developer",
       company: "Self-Employed",
-      period: "2023 - Present",
+      period: "2025",
       description: "Built websites for small businesses, focusing on responsive design and user experience optimization."
     }
   ];
 
   const education = [
     {
-      degree: "Bachelor of Science in Computer Science",
-      institution: "Your University",
+      degree: "Bachelor of Science in Information Technology",
+      institution: "STI College",
       period: "2022 - Present",
-      details: "Relevant Coursework: Data Structures, Algorithms, Software Engineering, Database Systems"
+      details: "Relevant Coursework: Data Structures, Programming Languages, Web Systems and Technologies, Great Books hahahahahaha"
     }
   ];
 
@@ -96,15 +96,15 @@ const Resume = () => {
               <div className="space-y-3">
                 <div className="flex items-center">
                   <div className="w-2 h-2 bg-yellow-400 rounded-full mr-3"></div>
-                  <span className="text-gray-600">JavaScript Algorithms and Data Structures - freeCodeCamp</span>
+                  <span className="text-gray-600">Java - Oracle</span>
                 </div>
                 <div className="flex items-center">
                   <div className="w-2 h-2 bg-yellow-400 rounded-full mr-3"></div>
-                  <span className="text-gray-600">React Developer Certification - Meta</span>
+                  <span className="text-gray-600">Database Management - Oracle</span>
                 </div>
                 <div className="flex items-center">
                   <div className="w-2 h-2 bg-yellow-400 rounded-full mr-3"></div>
-                  <span className="text-gray-600">Git Version Control - Coursera</span>
+                  <span className="text-gray-600">SAP - STI</span>
                 </div>
               </div>
             </div>
