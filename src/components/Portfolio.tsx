@@ -16,7 +16,7 @@ const Portfolio = () => {
     {
       title: "De-cafe-mate",
       description: "A web-based ordering and point-of-sale (POS) system specifically developed,for TommyCo",
-      tech: ["React", "TypeScript", "SQL", "CSS"],
+      tech: ["React", "TypeScript", "JavaScript", "SQL", "CSS"],
       github: "https://github.com/yourusername/task-manager",
       demo: "https://tommyco.netlify.app/",
       image: "https://i.ibb.co/Q3NqLVnZ/deca.png"
