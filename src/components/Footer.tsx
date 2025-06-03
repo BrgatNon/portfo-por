@@ -23,7 +23,7 @@ const Footer = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center">
           <div className="mb-8">
-            <h3 className="text-2xl font-bold mb-4">S</h3>
+            <h3 className="text-2xl font-bold mb-4">Sal Kent Remoroza</h3>
             <p className="text-blue-200 max-w-md mx-auto">
               Student and aspiring developer passionate about creating innovative solutions through code.
             </p>
